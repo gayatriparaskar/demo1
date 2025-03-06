@@ -14,12 +14,12 @@ app.get('/',(req,res)=>{
 
 
 app.get('/contact',(req,res)=>{
-    res.send("contact page")
+    res.send("This is contact page")
 })
  app.get('/services',(req,res)=>{
-    res.send("Services page")
+    res.send("Ths is Services page")
  })
 const port=8000
 app.listen(port,()=>{
-    console.log(`server is running ${port}`)
+    console.log(`The server is running ${port}`)
 })
